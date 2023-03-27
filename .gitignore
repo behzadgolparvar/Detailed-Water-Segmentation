@@ -53,7 +53,7 @@ _darcs
 /snippet
 
 
-/BeachSegment-Project/Labels/stuff*
+# /BeachSegment-Project/Labels/stuff*
 # /BeachSegment-Project/Labels/*.*
-/BeachSegment-Project/Beach-Image-Dataset/*
-!/BeachSegment-Project/Beach-Image-Dataset/*.*
+# /BeachSegment-Project/Beach-Image-Dataset/*
+# !/BeachSegment-Project/Beach-Image-Dataset/*.*
