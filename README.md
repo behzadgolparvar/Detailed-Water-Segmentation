@@ -1,4 +1,8 @@
-<img src=".github/Detectron2-Logo-Horz.svg" width="300" >
+
+<!-- Markdown comment
+
+
+<img src=".github/Detectron2-Logo-Horz.svg" width="300" > 
 
 <a href="https://opensource.facebook.com/support-ukraine">
   <img src="https://img.shields.io/badge/Support-Ukraine-FFD500?style=flat&labelColor=005BBB" alt="Support Ukraine - Help Provide Humanitarian Aid to Ukraine." />
@@ -49,11 +53,12 @@ And see [projects/](projects/) for some projects that are built on top of detect
 
 We provide a large set of baseline results and trained models available for download in the [Detectron2 Model Zoo](MODEL_ZOO.md).
 
+Markdown comment--> 
 ## License
 
-Detectron2 is released under the [Apache 2.0 license](LICENSE).
+This repo is forked from Detectron2 released under the [Apache 2.0 license](LICENSE).
 
-## Citing Detectron2
+<!-- ## Citing Detectron2
 
 If you use Detectron2 in your research or wish to refer to the baseline results published in the [Model Zoo](MODEL_ZOO.md), please use the following BibTeX entry.
 
@@ -65,4 +70,4 @@ If you use Detectron2 in your research or wish to refer to the baseline results 
   howpublished = {\url{https://github.com/facebookresearch/detectron2}},
   year =         {2019}
 }
-```
+``` -->
