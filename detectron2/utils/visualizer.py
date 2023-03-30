@@ -408,7 +408,7 @@ class Visualizer:
             colors = [
                 self._jitter([x / 255 for x in self.metadata.thing_colors[c]]) for c in classes
             ]
-            alpha = 0.8
+            alpha = 0.5
         else:
             colors = None
             alpha = 0.5
@@ -1163,7 +1163,8 @@ class Visualizer:
         vec = np.random.rand(3)
         # better to do it in another color space
         vec = vec / np.linalg.norm(vec) * 0.5
-        res = np.clip(vec + color, 0, 1)
+        #res = np.clip(vec + color, 0, 1)
+        res = np.clip(color, 0, 1)
         return tuple(res)
 
     def _create_grayscale_image(self, mask=None):
