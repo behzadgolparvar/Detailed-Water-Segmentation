@@ -54,6 +54,6 @@ _darcs
 
 
 # /BeachSegment-Project/Labels/stuff*
-!/BeachSegment-Project/Labels/*.json
+!/BeachSegment-Project/Labels/Sea*.json
 # /BeachSegment-Project/Beach-Image-Dataset/*
 # !/BeachSegment-Project/Beach-Image-Dataset/*.*
